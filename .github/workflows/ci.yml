@@ -35,8 +35,12 @@ jobs:
           path: coverage
       - name: Build Project
         if: github.event_name == 'push'
-        run: npm run build && ls
+        run: npm run build
+      - name: Check Current FOlder Structure
+        if: github.event_name == 'push'
+        run: ls
       - name: Upload Build Folder
+        if: github.event_name == 'push'
         uses: actions/upload-artifact@v1
         with:
           name: build
