@@ -16,7 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          React
+          Learn React
+          <h1>Here you can find that I was able to add good old text. I want it live</h1>
         </a>
       </header>
     </div>
