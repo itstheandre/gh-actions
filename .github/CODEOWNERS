@@ -1,0 +1,4 @@
+* @itstheandre
+*.js *itstheandre
+*.yml @itstheandre-temp
+/public/ @itstheandre
